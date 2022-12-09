@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladoras.LoginController">
+   <children>
+      <Text layoutX="228.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Text>
+      <TextField fx:id="usuario" layoutX="161.0" layoutY="132.0" />
+      <Text layoutX="61.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario:">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="74.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha:" wrappingWidth="75.59814453125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="senha" layoutX="161.0" layoutY="188.0" />
+      <Button fx:id="BotaoEntrar" layoutX="252.0" layoutY="246.0" mnemonicParsing="false" onAction="#RealizarEntrada" text="Entrar" />
+   </children>
+</AnchorPane>
